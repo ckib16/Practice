@@ -31,6 +31,10 @@ FighterJet.fighter_iron
 
 puts snake.speed
 
+## try instances (variable, methods)
+## iterators
+## arrays & hashes
+
 
 
 
