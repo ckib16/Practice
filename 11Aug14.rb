@@ -30,6 +30,7 @@ snake = Viper.new(600, 4, 2, 9, 2000)
 FighterJet.fighter_iron
 
 puts snake.speed
+puts snake.range
 
 ## try instances (variable, methods)
 ## iterators
