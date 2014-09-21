@@ -1,5 +1,7 @@
 # Practice file for Ruby Syntax. Use in IRB or in a script.
 
+#Arrays & Hashes: CARUD - Create, Read, Add, Update, Delete
+
 #    Arrays
 #Create array
 #add to array - push method
@@ -84,9 +86,9 @@ array.product([4, 5]) #The product method can be used to combine two arrays in a
 
 #Hashes
 hash = {age: 41, weight: 169, height: 6.0} #Create hash w/ symbols -new syntax {key: value}
-hash_old = {:sign => 'gemini'}             #Create has w/ symbols -old syntax {:key => value}
+hash_old = {:sign => 'gemini'}             #Create hash w/ symbols -old syntax {:key => value}
 
-hash[:gender] = "male"                     ##Add new key/value to hash
+hash[:gender] = "male"                     ##Add new key/value to hash - just like an array
 
 hash[:weight]                              #Read hash
 
