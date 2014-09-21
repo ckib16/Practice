@@ -97,7 +97,7 @@ hash[:weight] = 172                        #Update new value to a key
 hash.delete(:height)                       #Delete key & value
 
 #Hash methods
-hash.merge!(other_hash) #merges two hashes together. Bang optional to make destructive
+hash.merge!(other_hash_name) #merges two hashes together. Bang optional to make destructive
 hash.has_key?(argument) #has_key? method allows you to check if a hash contains a specific key. It returns a boolean value.
 hash.select { |k,v| k == :key } #The select method allows you to pass a block and will return any key-value pairs that evaluate to true when ran through the block.
 hash.fetch(:key) #The fetch method allows you to pass a given key and it will return the value for that key if it exists. You can also specify an option for return if that key is not present. Take a look at the Ruby docs to see what else is possible.
