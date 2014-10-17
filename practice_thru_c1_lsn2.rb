@@ -85,7 +85,7 @@ array.sort #The sort method is a handy way to order an array. It returns a sorte
 array.product([4, 5]) #The product method can be used to combine two arrays in an interesting way. It returns an array that is a combination of all elements from all arrays.
 
 #Hashes
-hash = {age: 41, weight: 169, height: 6.0} #Create hash w/ symbols -new syntax {key: value}
+hash = {age: 41, weight: 169, hair: "brown"} #Create hash w/ symbols -new syntax {key: value}
 hash_old = {:sign => 'gemini'}             #Create hash w/ symbols -old syntax {:key => value}
 
 hash[:gender] = "male"                     ##Add new key/value to hash - just like an array
