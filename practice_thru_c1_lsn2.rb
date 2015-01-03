@@ -1,4 +1,4 @@
-# Practice file for Ruby Syntax. Use in IRB or in a script.
+# Practice file for Ruby Syntax. Use in IRB or in a script to load.
 
 #Arrays & Hashes: CARUD - Create, Read, Add, Update, Delete
 
